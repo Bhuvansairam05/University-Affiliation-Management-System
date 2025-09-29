@@ -1,5 +1,4 @@
 import { Link, Outlet } from 'react-router-dom';
-import { Home } from './components/Home';
 import './App.css'
 function App() {
   return (
@@ -7,10 +6,10 @@ function App() {
       <header>
         <h1>University Affiliation management</h1>
         <div className="right">
-          <Link to={Home}><button className="nav-option">Home</button></Link>
-          <Link to={About}><button className="nav-option">About</button></Link>
-          <Link to={Contact}><button className="nav-option">Contact Us</button></Link>
-          <Link to={Login}><button>Login</button></Link>
+          <Link to="/home"><button className="nav-option">Home</button></Link>
+          <Link to="/about"><button className="nav-option">About</button></Link>
+          <Link to="/contact"><button className="nav-option">Contact Us</button></Link>
+          <Link to="/login"><button>Login</button></Link>
         </div>
       </header>
       <Outlet />
