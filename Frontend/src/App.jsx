@@ -6,7 +6,7 @@ function App() {
     <>
       <header>
         <div className="header-left">
-          <img src={Logo} alt="Logo" height={80}/>
+          <div className="logo"></div>
           <h1>Gradious Affiliation management</h1>
         </div>
         <div className="header-right">

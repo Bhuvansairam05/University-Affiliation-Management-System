@@ -1,0 +1,39 @@
+*{
+    background-color: black;
+    color: white;
+}
+header{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap:20px;
+    align-items: center;
+}
+.header-left{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: auto;
+    width: auto;
+    background-image: url("./assets/Logo.jpg");
+    background-size: cover;
+}
+.header-right{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    height: 60%;
+    width: 35%;
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom:10px;
+    text-align: center;
+    font-size: 2em;
+}
