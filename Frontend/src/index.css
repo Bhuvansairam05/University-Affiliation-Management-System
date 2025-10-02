@@ -3,32 +3,28 @@
     color: white;
 }
 header{
-    height: 30%;
+    height: auto;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    gap:20px;
     align-items: center;
 }
 .header-left{
-    width: 40%;
-    display: flex;
-    justify-content: space-between;
-}
-.logo{
-    height: auto;
-    width: auto;
-    background-image: url("./assets/Logo.jpg");
-    background-size: cover;
+    width: 50%;
 }
 .header-right{
-    width: 60%;
+    width: 50%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 button{
-    height: 60%;
-    width: 35%;
+    width: auto;
+    padding:25%;
+    color: black;
+    background-color: white;
+    border: none;
+    font-size: 1em;
+    white-space: nowrap;
 }
 footer{
     width: 100%;
