@@ -3,6 +3,7 @@
     color: white;
 }
 header{
+    margin:1%;
     height: auto;
     width: 100%;
     display: flex;
@@ -10,6 +11,9 @@ header{
 }
 .header-left{
     width: 50%;
+    display: flex;
+    align-items: center;
+    gap:1%;
 }
 .header-right{
     width: 50%;
@@ -19,12 +23,21 @@ header{
 }
 button{
     width: auto;
-    padding:25%;
+    padding:5% 35% 5% 35%;
     color: black;
     background-color: white;
+    border-radius: 2em;
     border: none;
-    font-size: 1em;
+    font-size: 1.3em;
     white-space: nowrap;
+}
+.nav-option{
+    background-color: black;
+    color: white;
+}
+.nav-option:hover{
+    background-color: white;
+    color:black;
 }
 footer{
     width: 100%;
