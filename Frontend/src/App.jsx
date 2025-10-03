@@ -1,9 +1,26 @@
 import { Link, Outlet } from 'react-router-dom';
 import './App.css'
 import Logo from './assets/Logo.jpg';
+
+import Home from './components/Home.jsx';
+import About from './components/About.jsx';
+import Login from './components/Login.jsx';
+import Contact from './components/Contact.jsx';
+import { Routes, BrowserRouter, Route } from 'react-router-dom';
 function App() {
   return (
     <>
+
+    <BrowserRouter>
+    <Routes>
+      <Route path='/'  element={<App/>}>
+        <Route index element={<Home/>}/>
+        <Route path='/about' element={<About />} />
+        <Route path='/Login' element={<Login />} />
+        <Route path='/Contact' element={<Contact/>}/>
+      </Route>
+    </Routes>
+  </BrowserRouter>
       <header>
         <div className="header-left">
           <div className="logo"><img src={Logo} alt="" height={50} width={50}/></div>
