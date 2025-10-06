@@ -9,10 +9,10 @@ return(
           <h1>Gradious Affiliation management</h1>
         </div>
         <div className="header-right">
-          <Link to="/"><button className="nav-option">Home</button></Link>
-          <Link to="/about"><button className="nav-option">About</button></Link>
-          <Link to="/contact"><button className="nav-option">Contact Us</button></Link>
-          <Link to="/login"><button>Login</button></Link>
+          <Link to="/"><button className="nav-link">Home</button></Link>
+          <Link to="/about"><button className="nav-link">About</button></Link>
+          <Link to="/contact"><button className="nav-link">Contact Us</button></Link>
+          <Link to="/login"><button className="nav-link">Login</button></Link>
         </div>
       </header>
       <Outlet />
