@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function HomeContent() {
     return (
         <>
@@ -7,8 +8,8 @@ function HomeContent() {
                         <h1>Gradious Affiliation Management System</h1>
                         <p>Streamline your institutional partnerships and accreditation processes with our comprehensive platform</p>
                         <div className="cta-buttons">
-                            <button className="btn btn-primary">Get Started</button>
-                            <button className="btn btn-secondary">Learn More</button>
+                            <Link to='/login'><button className="btn btn-primary">Get Started</button></Link>
+                            <Link to='/about'><button className="btn btn-secondary">Learn More</button></Link>
                         </div>
                     </div>
                 </section>
@@ -45,6 +46,28 @@ function HomeContent() {
                         </div>
                     </div>
                 </section>
+                <section class="stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3>500+</h3>
+                        <p>Affiliated Institutions</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>98%</h3>
+                        <p>Approval Rate</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>24/7</h3>
+                        <p>System Availability</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>15 Days</h3>
+                        <p>Average Processing Time</p>
+                    </div>
+                </div>
+            </div>
+        </section>
             </div>
         </>
     )

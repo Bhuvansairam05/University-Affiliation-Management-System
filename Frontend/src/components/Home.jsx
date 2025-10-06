@@ -17,8 +17,8 @@ return(
       </header>
       <Outlet />
       <footer>
-        &copy; 2025 University Affiliation Management
-      </footer>
+            <p>&copy; 2025 Gradious Affiliation Management System. All rights reserved.</p>
+    </footer>
     </>
 )
 }
