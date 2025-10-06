@@ -4,7 +4,7 @@ function HomeContent() {
             <div id="home" class="page active">
                 <section className="hero">
                     <div className="container">
-                        <h1>University Affiliation Management System</h1>
+                        <h1>Gradious Affiliation Management System</h1>
                         <p>Streamline your institutional partnerships and accreditation processes with our comprehensive platform</p>
                         <div className="cta-buttons">
                             <button className="btn btn-primary">Get Started</button>
