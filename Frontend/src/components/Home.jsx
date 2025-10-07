@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Logo from '../assets/logo_main.png';
+import Footer from './Footer.jsx';
 function Home() {
   return (
     <>
@@ -85,9 +86,7 @@ function Home() {
           </section>
         </div>
       </main>
-      <footer>
-        <p>&copy; 2025 Gradious Affiliation Management System. All rights reserved.</p>
-      </footer>
+      <Footer/>
     </>
   )
 }
