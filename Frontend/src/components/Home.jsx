@@ -6,7 +6,7 @@ return(
     <header>
         <div className="header-left">
           <div className="logo"><img src={Logo} alt="" height={50} width={50}/></div>
-          <h1>Gradious Affiliation management</h1>
+          <h1>GAMS</h1>
         </div>
         <div className="header-right">
           <Link to="/"><button className="nav-link">Home</button></Link>
