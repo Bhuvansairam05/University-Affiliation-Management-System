@@ -17,15 +17,18 @@ function About() {
                 </div>
             </header>
             <main>
-                <h1>About Us</h1>
-                <div className="top">
-                    This mainly consists of
-                    <ul>
-                        <li>License application for new course at collages.</li>
-                        <li>Upgrading license of an existing course at a certain collage.</li>
-                    </ul>
+                <div id='about'>
+                    <section className="hero">
+            <div className="container">
+              <h1>Gradious Affiliation Management System</h1>
+              <p>Streamline your institutional partnerships and accreditation processes with our comprehensive platform</p>
+              <div className="cta-buttons">
+                <Link to='/login'><button className="btn btn-primary">Get Started</button></Link>
+                <Link to='/about'><button className="btn btn-secondary">Learn More</button></Link>
+              </div>
+            </div>
+          </section>
                 </div>
-
             </main>
             <Footer/>
         </>
