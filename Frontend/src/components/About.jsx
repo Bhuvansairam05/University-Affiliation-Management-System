@@ -19,18 +19,14 @@ function About() {
             <main>
                 <div id='about'>
                     <section className="hero">
-            <div className="container">
-              <h1>Gradious Affiliation Management System</h1>
-              <p>Streamline your institutional partnerships and accreditation processes with our comprehensive platform</p>
-              <div className="cta-buttons">
-                <Link to='/login'><button className="btn btn-primary">Get Started</button></Link>
-                <Link to='/about'><button className="btn btn-secondary">Learn More</button></Link>
-              </div>
-            </div>
-          </section>
+                        <div className="container">
+                            <h1>About Us</h1>
+                            <p>Streamline your institutional partnerships and accreditation processes with our comprehensive platform</p>
+                        </div>
+                    </section>
                 </div>
             </main>
-            <Footer/>
+            <Footer />
         </>
     );
 }
