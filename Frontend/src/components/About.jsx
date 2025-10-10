@@ -21,7 +21,7 @@ function About() {
                     <section className="hero">
                         <div className="container">
                             <h1>About Us</h1>
-                            <p>Converting Educational partnerships into Technology</p>
+                            <p>Converting Educational partnerships through Technology</p>
                         </div>
                     </section>
                 </div>
