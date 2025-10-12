@@ -35,7 +35,27 @@ function About() {
                                     <p>Our platform serves as a central hub for affiliation applications, compliance monitoring, document management, and institutional partnerships, making the entire affiliation ecosystem more accessible and manageable for all stakeholders.</p>
                                 </div>
                                 <div class="intro-image">
-                                    <img src={University} alt="" height={200} width={200}/>
+                                    <img src={University} alt="" height={200} width={200} />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="mission-vision-section">
+                        <div class="container">
+                            <div class="section-header">
+                                <h2>Our Mission & Vision</h2>
+                                <p>Guiding principles that drive our commitment to excellence in education</p>
+                            </div>
+                            <div class="mission-vision-grid">
+                                <div class="mv-card">
+                                    <div class="mv-icon">🎯</div>
+                                    <h3>Our Mission</h3>
+                                    <p>To empower educational institutions with cutting-edge technology that simplifies affiliation management, ensures compliance with accreditation standards, and fosters stronger partnerships between universities and colleges. We strive to eliminate bureaucratic barriers and create a transparent, efficient ecosystem that benefits students, institutions, and the broader education community.</p>
+                                </div>
+                                <div class="mv-card">
+                                    <div class="mv-icon">🔭</div>
+                                    <h3>Our Vision</h3>
+                                    <p>To become the leading platform for educational affiliation management globally, setting new standards for efficiency, transparency, and quality in higher education administration. We envision a future where every institution has equal access to quality affiliation processes, enabling them to focus on what matters most - providing excellent education to students.</p>
                                 </div>
                             </div>
                         </div>
