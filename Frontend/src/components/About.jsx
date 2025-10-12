@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import Logo from '../assets/logo_main.png';
 import Footer from './Footer.jsx';
+import University from '../assets/University.jpg'
 function About() {
     return (
         <>
@@ -34,7 +35,7 @@ function About() {
                                     <p>Our platform serves as a central hub for affiliation applications, compliance monitoring, document management, and institutional partnerships, making the entire affiliation ecosystem more accessible and manageable for all stakeholders.</p>
                                 </div>
                                 <div class="intro-image">
-                                    {/* <span>🏛️</span> */}
+                                    <img src={University} alt="" height={200} width={200}/>
                                 </div>
                             </div>
                         </div>
