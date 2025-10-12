@@ -60,6 +60,37 @@ function About() {
                             </div>
                         </div>
                     </section>
+                    <section class="features-section">
+                        <div class="container">
+                            <div class="section-header">
+                                <h2>What Makes Us Different</h2>
+                                <p>Comprehensive solutions for modern affiliation management</p>
+                            </div>
+                            <div class="features-grid">
+                                <div class="feature-item">
+                                    <div class="feature-number">1</div>
+                                    <h4>Digital Application Process</h4>
+                                    <p>Complete online submission system with document upload, real-time tracking, and automated workflow management from application to approval.</p>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-number">2</div>
+                                    <h4>Compliance Monitoring</h4>
+                                    <p>Automated compliance tracking with customizable checklists, regular audits, and instant notifications for renewal deadlines and requirement updates.</p>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-number">3</div>
+                                    <h4>Multi-Level Access Control</h4>
+                                    <p>Role-based permissions for institutions, administrators, review committees, and auditors with secure authentication and data protection.</p>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-number">5</div>
+                                    <h4>Document Management</h4>
+                                    <p>Secure cloud storage for certificates, reports, and institutional documents with version control, easy retrieval, and backup systems.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
                 </div>
             </main>
             <Footer />
