@@ -17,9 +17,14 @@ function Contact() {
                 </div>
             </header>
             <main>
-               
+                <section class="hero">
+                    <div class="hero-content">
+                        <h1>Contact Us</h1>
+                        <p>We're here to help! Get in touch with our team for any queries or support</p>
+                    </div>
+                </section>
             </main>
-            <Footer/>
+            <Footer />
         </>
     )
 }
