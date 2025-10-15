@@ -519,8 +519,11 @@ footer {
         transform: translateY(0);
     }
 }
-
+/* .login-box{
+    padding:2%;
+} */
 .login-wrapper {
+    margin:5%;
     width: 90%;
     /* max-width: 1000px; */
     display: grid;
@@ -570,19 +573,19 @@ footer {
     z-index: 1;
 }
 
-.logo {
+.login-logo {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
 
 .login-left h1 {
-    font-size: 2rem;
+    font-size: 2.3rem;
     margin-bottom: 1rem;
     line-height: 1.2;
 }
 
 .login-left p {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     opacity: 0.95;
     margin-bottom: 2rem;
     line-height: 1.6;
@@ -598,7 +601,7 @@ footer {
     align-items: center;
     gap: 0.8rem;
     margin-bottom: 1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .features-list li::before {
@@ -626,7 +629,7 @@ footer {
 
 .login-header h2 {
     color: #ff6b35;
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-bottom: 0.5rem;
 }
 
@@ -652,7 +655,7 @@ footer {
     font-weight: 600;
     color: #999;
     transition: all 0.3s;
-    font-size: 0.95rem;
+    font-size: 1.15rem;
 }
 
 .tab-btn:hover {
