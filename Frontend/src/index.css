@@ -828,32 +828,6 @@ footer {
     right: 0;
 }
 
-.social-login {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-}
-
-.social-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    padding: 0.8rem;
-    border: 2px solid #e0e0e0;
-    border-radius: 8px;
-    background: white;
-    cursor: pointer;
-    transition: all 0.3s;
-    font-weight: 500;
-}
-
-.social-btn:hover {
-    border-color: #ff6b35;
-    background: #fff5f0;
-    transform: translateY(-2px);
-}
 
 .signup-link {
     text-align: center;

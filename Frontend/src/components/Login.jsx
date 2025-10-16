@@ -53,14 +53,14 @@ function Login() {
                                         <label>Email Address / Institution ID</label>
                                         <div className="input-wrapper">
                                             <span className="input-icon">📧</span>
-                                            <input type="text" name="username" placeholder="Enter your email or institution ID" required />
+                                            <input type="text" name="username" placeholder="Enter your email or institution ID eg: user@gmail.com" required />
                                         </div>
                                     </div>
                                     <div className="form-group">
                                         <label>Password</label>
                                         <div className="input-wrapper">
                                             <span className="input-icon">🔒</span>
-                                            <input type="password" id="institution-password" placeholder="Enter your password" required />
+                                            <input type="password" id="institution-password" placeholder="Enter your password ****" required />
                                             <span className="password-toggle" onclick="togglePassword('institution-password')">👁️</span>
                                         </div>
                                     </div>
@@ -76,16 +76,6 @@ function Login() {
                                     <button type="submit" className="btn-login">Login to Dashboard</button>
                                 </form>
 
-                                <div className="divider">OR</div>
-
-                                <div className="social-login">
-                                    <button className="social-btn" onclick="socialLogin('google')">
-                                        <span>🔍</span> Google
-                                    </button>
-                                    <button className="social-btn" onclick="socialLogin('microsoft')">
-                                        <span>🪟</span> Microsoft
-                                    </button>
-                                </div>
 
                                 <div className="signup-link">
                                     Don't have an account? <a href="#" onclick="showSignup(); return false;">Register as Institution</a>
