@@ -28,9 +28,7 @@ function Login() {
                                 <ul className="features-list">
                                     <li>Secure and encrypted login</li>
                                     <li>Real-time application tracking</li>
-                                    <li>24/7 system access</li>
                                     <li>Multi-role support</li>
-                                    <li>Automated notifications</li>
                                 </ul>
                             </div>
                         </div>
@@ -76,7 +74,7 @@ function Login() {
 
 
                                 <div className="signup-link">
-                                    Don't have an account? <a href="#" onclick="showSignup(); return false;">Register as Institution</a>
+                                    Don't have an account? <a href="" onclick="showSignup(); return false;">Register as Institution</a>
                                 </div>
 
                                 <div className="info-box">
@@ -85,7 +83,6 @@ function Login() {
                                         <li>View and track affiliation applications</li>
                                         <li>Upload required documents</li>
                                         <li>Manage institution profile</li>
-                                        <li>Receive notifications and updates</li>
                                     </ul>
                                 </div>
                             </div>
