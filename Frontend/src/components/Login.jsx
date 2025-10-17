@@ -1,18 +1,6 @@
 import { Link } from 'react-router-dom';
 import Logo from '../assets/logo_main.png';
 import Footer from './Footer.jsx';
-function switchTab(tab) {
-    const ele = document.getElementById(tab);
-    ele.classList.add("active");
-    if (tab == "institution-tab") {
-        const alter = document.getElementById("admin-tab");
-        alter.classList.remove("active");
-    }
-    else if (tab == 'admin-tab') {
-        const alter = document.getElementById("institution-tab");
-        alter.classList.remove("active");
-    }
-}
 function Login() {
     return (
         <>
@@ -56,22 +44,20 @@ function Login() {
                             <div id="alertBox" className="alert"></div>
 
                             <div className="login-tabs">
-                                <button className="tab-btn active" onClick={switchTab("institution-tab")}>Institution</button>
-                                <button className="tab-btn" onClick={switchTab("admin-tab")}>Administrator</button>
+                                <button className="tab-btn active" >Institution</button>
+                                <button className="tab-btn" >Administrator</button>
                             </div>
                             <div id="institution-tab" className="tab-content active">
                                 <form onsubmit="handleLogin(event, 'institution')">
                                     <div className="form-group">
                                         <label>Email Address / Institution ID</label>
                                         <div className="input-wrapper">
-                                            <span className="input-icon">📧</span>
                                             <input type="text" name="username" placeholder="Enter your email or institution ID eg: user@gmail.com" required />
                                         </div>
                                     </div>
                                     <div className="form-group">
                                         <label>Password</label>
                                         <div className="input-wrapper">
-                                            <span className="input-icon">🔒</span>
                                             <input type="password" id="institution-password" placeholder="Enter your password ****" required />
                                             <span className="password-toggle" onclick="togglePassword('institution-password')">👁️</span>
                                         </div>
