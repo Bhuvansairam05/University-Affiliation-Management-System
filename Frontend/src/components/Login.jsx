@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom';
 import Logo from '../assets/logo_main.png';
 import Footer from './Footer.jsx';
+import { useState } from 'react';
 function Login() {
+    const [state1,setState1]=useState("active");
+    const [state2,setState2]=useState("");
     return (
         <>
             <header>
@@ -42,10 +45,10 @@ function Login() {
                             <div id="alertBox" className="alert"></div>
 
                             <div className="login-tabs">
-                                <button className="tab-btn active" >Institution</button>
-                                <button className="tab-btn" >Administrator</button>
+                                <button className={`tab-btn ${state1}`} onClick={()=>{setState1("active");setState2("")}}>Institution</button>
+                                <button className={`tab-btn ${state2}`} onClick={()=>{setState1("");setState2("active")}}>Administrator</button>
                             </div>
-                            <div id="institution-tab" className="tab-content active">
+                            <div id="institution-tab" className={`tab-content ${state1}`}>
                                 <form onsubmit="handleLogin(event, 'institution')">
                                     <div className="form-group">
                                         <label>Email Address / Institution ID</label>
@@ -86,7 +89,7 @@ function Login() {
                                     </ul>
                                 </div>
                             </div>
-                            <div id="admin-tab" className="tab-content">
+                            <div id="admin-tab" className={`tab-content ${state2}`}>
                                 <form onsubmit="handleLogin(event, 'admin')">
                                     <div className="form-group">
                                         <label>Admin Username</label>
