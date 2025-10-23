@@ -113,9 +113,7 @@ function Login() {
                                             <select name="role" required>
                                                 <option value="">Select your role</option>
                                                 <option value="super-admin">Super Administrator</option>
-                                                <option value="university-admin">University Administrator</option>
                                                 <option value="reviewer">Review Committee Member</option>
-                                                <option value="auditor">Auditor</option>
                                             </select>
                                         </div>
                                     </div>
