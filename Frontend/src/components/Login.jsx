@@ -5,6 +5,15 @@ import { useState } from 'react';
 function Login() {
     const [state1,setState1]=useState("active");
     const [state2,setState2]=useState("");
+    const [passwordType,setPasswordType] = useState("password");
+    function togglePasswordType(){
+        if(passwordType==="password"){
+            setPasswordType("text");
+        }
+        else{
+            setPasswordType("password");
+        }
+    }
     return (
         <>
             <header>
@@ -49,7 +58,7 @@ function Login() {
                                 <button className={`tab-btn ${state2}`} onClick={()=>{setState1("");setState2("active")}}>Administrator</button>
                             </div>
                             <div id="institution-tab" className={`tab-content ${state1}`}>
-                                <form onsubmit="handleLogin(event, 'institution')">
+                                <form onSubmit="handleLogin(event, 'institution')">
                                     <div className="form-group">
                                         <label>Email Address / Institution ID</label>
                                         <div className="input-wrapper">
@@ -59,8 +68,8 @@ function Login() {
                                     <div className="form-group">
                                         <label>Password</label>
                                         <div className="input-wrapper">
-                                            <input type="password" id="institution-password" placeholder="Enter your password ****" required />
-                                            <span className="password-toggle" onclick="togglePassword('institution-password')">👁️</span>
+                                            <input type={passwordType} id="institution-password" placeholder="Enter your password ****" required />
+                                            <span className="password-toggle" onClick={()=>setPasswordType()}>👁️</span>
                                         </div>
                                     </div>
                                     <div className="form-options">
@@ -69,7 +78,7 @@ function Login() {
                                             <span>Remember me</span>
                                         </label>
                                         <div className="forgot-password">
-                                            <a href="#" onclick="showForgotPassword(); return false;">Forgot Password?</a>
+                                            <a href="#" onClick="showForgotPassword(); return false;">Forgot Password?</a>
                                         </div>
                                     </div>
                                     <button type="submit" className="btn-login">Login to Dashboard</button>
@@ -94,22 +103,19 @@ function Login() {
                                     <div className="form-group">
                                         <label>Admin Username</label>
                                         <div className="input-wrapper">
-                                            <span className="input-icon">👤</span>
                                             <input type="text" name="username" placeholder="Enter admin username" required />
                                         </div>
                                     </div>
                                     <div className="form-group">
                                         <label>Password</label>
                                         <div className="input-wrapper">
-                                            <span className="input-icon">🔒</span>
-                                            <input type="password" id="admin-password" placeholder="Enter your password" required />
-                                            <span className="password-toggle" onclick="togglePassword('admin-password')">👁️</span>
+                                            <input type={passwordType} id="admin-password" placeholder="Enter your password" required />
+                                            <span className="password-toggle" onClick={()=>togglePasswordType()}>👁️</span>
                                         </div>
                                     </div>
                                     <div className="form-group">
                                         <label>Role</label>
                                         <div className="input-wrapper">
-                                            <span className="input-icon">🎭</span>
                                             <select name="role" required>
                                                 <option value="">Select your role</option>
                                                 <option value="super-admin">Super Administrator</option>
