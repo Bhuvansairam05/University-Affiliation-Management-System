@@ -139,7 +139,6 @@ function Login() {
                                         <li>Super Admin: Full system control</li>
                                         <li>University Admin: Manage affiliations</li>
                                         <li>Reviewer: Review applications</li>
-                                        <li>Auditor: Compliance monitoring</li>
                                     </ul>
                                 </div>
                             </div>
