@@ -34,7 +34,7 @@ function Login() {
                         <div className="login-left">
                             <div className="login-left-content">
                                 <div className="login-logo">🎓</div>
-                                <h1>University Affiliation Management System</h1>
+                                <h1>Gradious Affiliation Management System</h1>
                                 <p>Streamline your affiliation process with our comprehensive digital platform</p>
 
                                 <ul className="features-list">
